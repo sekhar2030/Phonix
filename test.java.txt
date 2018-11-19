@@ -251,7 +251,8 @@ public class Code
     public void setCreator(String creator)
     {
         this.creator = creator;
-    }
+ 
+//my new class file   }
 
     public boolean equals(Object obj)
     {
