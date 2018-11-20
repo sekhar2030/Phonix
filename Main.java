@@ -13,6 +13,7 @@ class Main
         System.out.println("is true");
     }
     
+    //to get the current page in the pagination.
     BigDecimal currentPageValue = (new BigDecimal(
            22).divide(new BigDecimal(40),2, RoundingMode.CEILING))
             .setScale(1,BigDecimal.ROUND_CEILING);
