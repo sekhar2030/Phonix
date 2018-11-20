@@ -22,7 +22,7 @@ class Main
     String number = String.valueOf(currentPageValue);
     number = number.substring(number.indexOf(".")).substring(1);
     System.out.println(number);
-    
+    //to get the string length.
     StringBuilder str = new StringBuilder();
     System.out.println("string = " + str.length());
 
